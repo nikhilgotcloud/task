@@ -1,0 +1,22 @@
+.main {
+    background-color: white;
+}
+
+.head {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.span {
+    background: #A3D060;
+    border-radius: 90%;
+}
+
+.button {
+    color: #45474A;
+    background-color: white;
+    border-radius: 10%;
+    font-weight: 400;
+    font-size: 16px;
+
+}

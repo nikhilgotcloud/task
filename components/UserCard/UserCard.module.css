@@ -1,0 +1,62 @@
+.name{
+    color: #1a5861;
+    font-weight: bold;
+}
+.description{
+    color: black;
+    font-weight: normal;
+}
+.button{
+    background-color: #1a5861;
+    color: white;
+    
+    border-radius: 3px;
+
+}
+.detail{
+    color: #1a5861;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 700px;
+    
+    
+    font-weight: lighter;
+    
+}
+.info{
+    margin: 0px;
+    padding: 0px;
+ }
+.image{
+    border-radius: 60px;
+}
+
+ .user{
+    background-color: white;
+   
+ }
+
+@media (max-width: 767.98px) { 
+    .name{
+        text-decoration-color: #73296D;
+        margin-left: 5rem;
+      
+    }
+    .description{
+        margin-left: 5rem;
+        font-size: small;
+    }
+    
+    .maininfo{
+        margin-top: -60px;
+    }
+    .detail{
+        font-size: 15px;
+        margin-left: 80px;
+
+    }
+    .button{
+        margin-top: 6px;
+    }
+ }

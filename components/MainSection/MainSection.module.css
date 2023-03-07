@@ -1,0 +1,22 @@
+.main {
+    background-color: #e0eef0;
+    margin-top: -1rem;
+}
+
+.margin {
+    margin-left: 6rem;
+}
+
+@media (max-width:768px) {
+    .margin {
+        margin-left: -1rem;
+    }
+}
+
+.name {
+    font-family: 'Questa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #2F2F31;
+}

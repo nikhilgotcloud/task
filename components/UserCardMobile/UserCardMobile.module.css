@@ -1,0 +1,63 @@
+.name {
+    color: #73296D;
+    font-weight: bold;
+    font-weight: 700;
+    padding-left: 1%;
+}
+
+.description {
+    color: black;
+    font-weight: 700;
+    padding-left: 1%;
+}
+
+.detail {
+    color: #1a5861;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: lighter;
+    margin-left: 40px;
+
+}
+
+.info {
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+
+.image {
+    border-radius: 60px;
+    margin-left: 10px;
+
+}
+
+.user {
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -12px;
+}
+
+@media (max-width: 767.98px) {
+    .name {
+
+        margin-left: 5rem;
+
+    }
+
+    .description {
+        margin-left: 5rem;
+        font-size: small;
+    }
+
+    .maininfo {
+        margin-top: -60px;
+    }
+
+
+
+
+}

@@ -1,0 +1,35 @@
+.menu{
+   background-color: white;
+}
+
+.home{
+    color: #1a5861;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.chat{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+ }
+ .save{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+
+
+@media(max-width:992px){
+    .home{
+        color: #1a5861;
+        font-size: 12px; 
+    }
+    .chat{
+        font-size: 12px;  
+     }
+     .save{
+        font-size: 12px;
+     }
+     
+
+}

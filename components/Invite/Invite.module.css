@@ -1,0 +1,38 @@
+.main {
+    background-color: white;
+}
+
+.head {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.para {
+    font-weight: 400;
+    color: #45474A;
+
+
+}
+
+.copy {
+    border: 2px solid #b3b1b1;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.button {
+    border: 2px solid #cccfcf;
+    border-radius: 10px;
+    background-color: white;
+}
+.span{
+    color: #B3B1B1;
+}
+.icon{
+    align-items: center;
+    background-color: white;
+    border: 1px solid #45474a;
+    font-weight: 400;
+    font-size: 16px;
+    color: #45474A;
+}

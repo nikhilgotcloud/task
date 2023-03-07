@@ -1,0 +1,39 @@
+.footer {
+    background-color: white;
+}
+
+.home {
+    color: #2D7E8B;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.chat {
+    font-weight: 300;
+    font-size: 24px;
+    color: #2F2F31;
+}
+
+.save {
+    font-weight: 300;
+    font-size: 24px;
+    color: #2F2F31;
+
+}
+
+.upload {
+    font-weight: 500;
+    font-size: 40px;
+    color: #2F2F31;
+}
+
+.button {
+    font-weight: 400;
+    font-size: 16px;
+    background: #1A5962;
+    border-radius: 4px;
+}
+.eclipse{
+    border-radius: 50%;
+     z-index: 1;
+    }

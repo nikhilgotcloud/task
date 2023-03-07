@@ -1,0 +1,28 @@
+.subnav{
+    background-color: #1a5861;
+}
+.navdropdown {
+    background-color: #1a5861;
+}
+.menu{
+    font-size: 17px;
+   
+}
+.table{
+        margin-left: 46%;
+}
+.down{
+    font-size:smaller;
+}
+
+@media (min-width: 768px)  { 
+        .news{
+            margin-left: 5rem;
+            
+        }
+        
+    }
+
+
+
+   

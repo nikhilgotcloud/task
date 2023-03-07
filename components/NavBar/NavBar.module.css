@@ -1,0 +1,9 @@
+.bell{
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+}
+.eclipse{
+border-radius: 50%;
+ z-index: 1;
+}
