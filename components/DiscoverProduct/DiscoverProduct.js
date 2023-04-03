@@ -41,14 +41,14 @@ const DiscoverProduct = () => {
                                 {/* <div className="d-flex-inline mt-5 ms-5 "><i class="bi bi-arrow-right"></i></div> */}
                             </div>
 
-                            <div className={`${styles.cardthree} col-lg-5 col-5 d-flex align-items-center pt-lg-4 pb-lg-3 ps-lg-4 m-lg-2 m-1 p-sm-4 pt-4 pb-3 `}>I&rsquo;m in a coking rut
+                            <div className={`${styles.cardthree} col-lg-5 col-5 d-flex align-items-center pt-lg-4 pb-lg-3 ps-lg-4 m-lg-2 m-1 p-sm-4 pt-4 pb-3 `}>I`&apos;`m in a coking rut
                                 <br /><br />
                                 <Image className={`${styles.arrowrightthree} d-none d-md-block`} src="/arrow-right.png" width={15} height={15} alt="qw"></Image>
                                 <Image className={`${styles.arrowrightmob} d-block d-sm-none `} src="/circlearrow.png" width={15} height={15} alt="qw"></Image>
                                 {/* <div className="d-flex-inline mt-5 ms-4 "><i class="bi bi-arrow-right"></i></div> */}
                             </div>
 
-                            <div className={`${styles.cardfour} col-lg-5 col-5 d-flex align-items-center  pt-lg-4 pb-lg-3 ps-lg-4 m-lg-2 m-1 p-sm-4 pt-4 pb-3`} >I&rsquo;m on a budget
+                            <div className={`${styles.cardfour} col-lg-5 col-5 d-flex align-items-center  pt-lg-4 pb-lg-3 ps-lg-4 m-lg-2 m-1 p-sm-4 pt-4 pb-3`} >I`&apos;`m on a budget
                                 <br /><br />
                                 <Image className={`${styles.arrowrightfour} d-none d-md-block `} src="/arrow-right.png" width={15} height={15} alt="qw"></Image>
                                 <Image className={`${styles.arrowrightmob} d-block d-sm-none `} src="/circlearrow.png" width={15} height={15} alt="qw"></Image>

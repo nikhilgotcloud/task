@@ -21,7 +21,7 @@ const UserCard = () => {
                     </div>
                     <div className={`${styles.maininfo}  col-md-9  p-0 `} >
                     
-                        <span  className={`${styles.name} `}>Heather Host&rsquo;s Party 
+                        <span  className={`${styles.name} `}>Heather Host`&apos;`s Party 
                         
                         <p  className={styles.description} >with Consultant Taylor Inman</p>
                         <button className={`${styles.button} p-2  border-0`} >Accept Invite</button>
