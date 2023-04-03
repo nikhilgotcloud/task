@@ -11,7 +11,7 @@ const NavBar = () => {
         <div className="container-fluid ">
         
           <Link className="navbar-brand ms-md-1 ms-lg-3" href="https://github.com/nikhilgotcloud/task">
-            <img src="5.png"  alt="Logo" width="150" height="25" />
+            <Image src="/5.png"  alt="Logo" width={150} height={25} />
           </Link>
           
           <div className="d-md-flex-inline ">

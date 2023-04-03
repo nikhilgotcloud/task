@@ -14,7 +14,7 @@ const UserCardMobile = () => {
                     </div>
                     <div className={`${styles.maininfo}  col-md-9 p-0 `} >
                    
-                        <span  className={`${styles.name} `}>Heather Host's Party 
+                        <span  className={`${styles.name} `}>Heather Host&rsquo;s Party 
                         
                         <p  className={styles.description} >with Consultant Taylor Inman<Link className={`${styles.detail} pb-5 `} href="https://github.com/nikhilgotcloud/task">Details</Link></p>
                        
