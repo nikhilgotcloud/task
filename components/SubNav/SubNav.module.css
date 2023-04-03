@@ -1,28 +1,58 @@
-.subnav{
+li.a {
+    font-family: Foundation Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.btn,
+.menu {
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+
+
+.subnav {
     background-color: #1a5861;
 }
+
 .navdropdown {
     background-color: #1a5861;
 }
-.menu{
+
+.menu {
     font-size: 17px;
-   
-}
-.table{
-        margin-left: 46%;
-}
-.down{
-    font-size:smaller;
+
 }
 
-@media (min-width: 768px)  { 
-        .news{
-            margin-left: 5rem;
-            
-        }
-        
+.table {
+
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 47%;
+    margin-bottom: 0.5%;
+}
+
+.down {
+    font-size: smaller;
+}
+
+@media (min-width: 768px) {
+    .news {
+        margin-left: 5rem;
+
     }
 
-
-
-   
+}

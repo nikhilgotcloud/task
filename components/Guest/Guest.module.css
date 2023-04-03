@@ -2,21 +2,102 @@
     background-color: white;
 }
 
-.head {
-    font-weight: 700;
-    font-size: 20px;
+.name {
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #2F3031;
+
+
 }
 
-.span {
+.head {
+    font-family: 'Questa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 135%;
+    color: #2F3031;
+}
+
+.spanone {
     background: #A3D060;
     border-radius: 90%;
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 135%;
+    color: #FFFFFF;
+    width: 26px;
+    height: 60px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+
+}
+
+.spantwo {
+    background: #A3D060;
+    border-radius: 90%;
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #FFFFFF;
+    width: 24px;
+    height: 22px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+
+}
+
+.spanthree {
+    background: #A3D060;
+    border-radius: 90%;
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #FFFFFF;
+    width: 21px;
+    height: 22px;
+
+}
+
+.spanfour {
+    background: #A3D060;
+    border-radius: 90%;
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #FFFFFF;
+    width: 22px;
+    height: 22px;
+
 }
 
 .button {
     color: #45474A;
     background-color: white;
     border-radius: 10%;
+    font-family: 'Foundation Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    line-height: 135%;
+    align-items: center;
+
 
 }
+
+@media (min-width:576px) and (max-width :992px) {}

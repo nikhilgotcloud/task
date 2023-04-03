@@ -1,3 +1,42 @@
+.head {
+    font-family: 'Questa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 120%;
+    color: #2F2F31;
+
+}
+
+.para {
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #45474A;
+
+}
+
+.back {
+    color: #1A5962;
+    text-decoration: none;
+    margin-bottom: 40px;
+    margin-left: 53%;
+}
+
+.backone {
+    color: #1A5962;
+    text-decoration: none;
+    margin-bottom: 40px;
+    margin-left: 50%;
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+}
+
 .main {
     background-color: #e0eef0;
     margin-top: -1rem;
@@ -11,6 +50,28 @@
     .margin {
         margin-left: -1rem;
     }
+    .back {
+        color: #1A5962;
+        text-decoration: none;
+        margin-bottom: 40px;
+        margin-left: 53%;
+    }
+    
+    .backone {
+        color: #1A5962;
+        text-decoration: none;
+        margin-bottom: 40px;
+        margin-left: 50%;
+        font-family: 'Foundation Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+    }
+}
+
+.head {
+    font-size: 26px;
 }
 
 .name {

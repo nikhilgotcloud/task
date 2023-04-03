@@ -1,23 +1,32 @@
 .name {
-    color: #73296D;
-    font-weight: bold;
+    font-family: 'Foundation Sans';
+    font-style: normal;
     font-weight: 700;
+    font-size: 16px;
+    line-height: 135%;
+    color: #73296D;
     padding-left: 1%;
 }
 
 .description {
     color: black;
-    font-weight: 700;
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 545;
+    font-size: 16px;
+    line-height: 135%;
     padding-left: 1%;
 }
 
 .detail {
-    color: #1a5861;
-    font-size: 15px;
-    cursor: pointer;
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 135%;
+    color: #1A5962;
+    margin-left: 20%;
     text-decoration: none;
-    font-weight: lighter;
-    margin-left: 40px;
 
 }
 
@@ -25,12 +34,11 @@
     margin: 0px;
     padding: 0px;
 
-
-
 }
 
 .image {
     border-radius: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     margin-left: 10px;
 
 }

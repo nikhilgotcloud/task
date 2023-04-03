@@ -3,18 +3,36 @@
     margin-left: -10px;
     margin-right: -12px;
 }
+.chat{
+    font-family: 'Foundation Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 135%;
+color: #1A5962;
 
+}
+.poll{
+    margin-left: 12px;
+    margin-bottom: 3px;
+}
 .head {
-    font-weight: 700;
-    font-size: 16px;
+    font-family: 'Foundation Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 135%;
+color: #2F3031;
 }
 
 .only {
+    font-family: 'Foundation Sans';
     font-style: italic;
     font-weight: 400;
     font-size: 13px;
+    line-height: 135%;
     color: #6B6C70;
-    margin-left: 39%;
+    margin-left: 45%;
     text-decoration: none;
 }
 

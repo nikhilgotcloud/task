@@ -1,4 +1,5 @@
-import styles from "./SubNav.module.css"
+import styles from "./SubNav.module.css";
+import Image from "next/image";
 
 const SubNav = () => {
   return (
@@ -45,7 +46,7 @@ const SubNav = () => {
           </div>
         </div>
       
-        <a className={`${styles.table} nav-link active text-light d-none d-md-block mt-2`} aria-current="page" href="/"><i class="bi bi-lightbulb"></i> Table Tips</a>
+        <a className={`${styles.table} nav-link active text-light d-none d-md-block mt-2`} aria-current="page" href="/"><Image className={`${styles.eclipse} `} src="/bulb.png" alt="Ecllipse" width={10} height={15}></Image> Table Tips</a>
 
 
 

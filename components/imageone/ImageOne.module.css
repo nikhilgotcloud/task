@@ -1,34 +1,21 @@
-.header{
+.header {
     background-color: white;
 }
-.heading{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-}
-.number{
-    background-color: #E4EAEA;
-    border-radius: 50%;
-    padding: 2px 10px;
-    font-size: 18px;
-    font-weight: lighter;
-}
-.numberone{
+
+
+.numberone {
     background-color: #B53E4A;
     border-radius: 50%;
     padding: 2px 10px;
-    font-size: 21px;
+    font-family: 'Questa';
+    font-style: normal;
     font-weight: 700;
+    font-size: 21px;
+    line-height: 110%;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 12px;
+    padding-left: 12px;
 }
-@media (min-width:576px) and (max-width :992px)   {
-    .heading{
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 10px;
-        font-weight: bold;
-    }
-    .number{
-        font-weight: bold;
-    }
-    .image{
-        width: 700px;
-    }
-}
+

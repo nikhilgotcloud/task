@@ -14,12 +14,9 @@ const NavBar = () => {
           </a>
           
           <div className="d-md-flex-inline ">
-           <b><i  className={`${styles.bell} bi bi-bell p-1 `}><Image className={`${styles.eclipse} `} src="/7.png" alt="Ecllipse" width={8} height={8}></Image></i></b>
-           
+           <b><i  className={`${styles.bell} bi bi-bell p-1   `}><Image className={`${styles.eclipse} `} src="/7.png" alt="Ecllipse" width={6} height={6}></Image></i></b>
 
-
-    
-           <button type="button" class="btn btn-outline-none ms-3"><b>Profile</b></button>
+           <button type="button" class="btn btn-outline-none ms-3"><b className={`${styles.profile} `}>Profile</b></button>
            
            </div>
         </div>

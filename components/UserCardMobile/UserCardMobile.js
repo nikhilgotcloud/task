@@ -13,7 +13,7 @@ const UserCardMobile = () => {
                     </div>
                     <div className={`${styles.maininfo}  col-md-9 p-0 `} >
                    
-                        <span  className={`${styles.name} `}>Heather Host's Party
+                        <span  className={`${styles.name} `}>Heather Host's Party 
                         
                         <p  className={styles.description} >with Consultant Taylor Inman<a className={`${styles.detail} pb-5 `}href="/">Details</a></p>
                        

@@ -1,26 +1,45 @@
 .party {
     background-color: white;
-    
-   
+
+
+}
+
+.chat {
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+
+}
+.text{
+    margin-left: 9rem;
 }
 
 .head {
+    font-family: 'Foundation Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
+    line-height: 135%;
+    color: #2F3031;
 }
 
 .only {
+    font-family: 'Foundation Sans';
     font-style: italic;
     font-weight: 400;
     font-size: 13px;
+    line-height: 135%;
     color: #6B6C70;
-    margin-left: 50%;
+    margin-left: 55%;
     text-decoration: none;
 }
-
+.poll{
+    margin-left: 5rem;
+    margin-bottom: 4px;
+}
 .icon {
-    font-weight: 400;
-    font-size: 16px;
-    color: #1A5962;
     
+    color: #1A5962;
 }

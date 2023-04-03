@@ -6,11 +6,28 @@
 .button {
     background-color: #1a5861;
     border-radius: 4px;
+    font-family: 'Foundation Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
 
 }
 
 .head {
+    font-family: 'Questa';
+    font-style: normal;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 21px;
+    line-height: 135%;
+    display: flex;
+    align-items: center;
     color: #2F3031;
+
 }
+

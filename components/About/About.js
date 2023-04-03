@@ -8,8 +8,8 @@ const About = () => {
         <div >
             <div className="text-center d-none d-md-block ">
             <div className={`${styles.about}  p-2 justify-content-evenly `}>
-            <h3 className={`${styles.heading} `}>Why Pampered Chef?</h3>
-                <p>We help bridge the gap between the ideal
+            <h3 className={`${styles.heading} mt-4`}>Why Pampered Chef?</h3>
+                <p className={`${styles.para} `}>We help bridge the gap between the ideal
                     mealtime and the realities of today with quality
                     products, a supportive consultant, and solutions
                     to your mealtime challenges.
@@ -21,7 +21,7 @@ const About = () => {
 
 
             {/* mobile  */}
-            <div className={`${styles.about} d-flex-inline p-2 d-block d-sm-none`}>
+            <div className={`${styles.about} d-flex-inline p-2 ms-0 d-block d-sm-none`}>
 
                 
                 <h3 className={`${styles.heading} text-center `}>Why Pampered Chef?</h3>

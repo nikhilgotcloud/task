@@ -1,38 +1,124 @@
 .main {
-    background-color: white;
+  background-color: white;
 }
 
 .head {
-    font-weight: 700;
-    font-size: 21px;
+  font-family: 'Questa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 135%;
+  color: #2F3031;
 }
 
 .para {
-    font-weight: 400;
-    color: #45474A;
+  font-family: 'Foundation Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #45474A;
 
 
+}
+
+.link {
+  font-family: 'Foundation Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-decoration-line: underline;
+  color: #1A5962;
+  cursor: pointer;
+  margin-right: 2rem;
+  margin-left: -2rem;
 }
 
 .copy {
-    border: 2px solid #b3b1b1;
-    border-radius: 5px;
-    align-items: center;
+  padding: 2rem;
+  gap: 10px;
+  font-family: 'Foundation Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  background: #FFFFFF;
+  border: 1px solid #D3DEDE;
+  border-radius: 10px;
+
 }
 
 .button {
-    border: 2px solid #cccfcf;
-    border-radius: 10px;
-    background-color: white;
+  border: 2px solid #cccfcf;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: -10%;
+  margin-left: 3rem;
+
+
 }
-.span{
-    color: #B3B1B1;
+
+.span {
+  color: #B3B1B1;
 }
-.icon{
-    align-items: center;
-    background-color: white;
-    border: 1px solid #45474a;
-    font-weight: 400;
+
+.icon {
+  align-items: center;
+  background-color: white;
+  border: 1px solid #45474a;
+  font-weight: 400;
+  font-size: 16px;
+  color: #45474A;
+  width: 90%;
+  font-family: 'Foundation Sans';
+  font-style: normal;
+  line-height: 135%;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+
+  .link {
+    font-size: 14px;
+    
+    
+  }
+
+  .button {
     font-size: 16px;
-    color: #45474A;
+    width: 120%;
+   margin-top: -6rem;
+   margin-left: 8rem;
+   padding-right: 4rem;
+  
+  }
+
+  .icon {
+    width: 100%;
+  }
 }
+
+/* @media only screen and (min-width: 768px) {
+  .link {
+    font-size: 16px;
+    
+  }
+
+  .button {
+    font-size: 16px;
+    
+  }
+} */
+
+/* @media only screen and (min-width: 992px) {
+  .link {
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 18px;
+  }
+} */

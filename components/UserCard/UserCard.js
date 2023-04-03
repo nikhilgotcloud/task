@@ -2,12 +2,8 @@ import styles from "./UserCard.module.css";
 import Image from "next/image";
 import { useState } from 'react';
 
-function MyButton() {
-  const [clicked, setClicked] = useState(false);
 
-  const handleClick = () => {
-    setClicked(true);
-  };}
+  
 
 const UserCard = () => {
   return (
@@ -23,16 +19,16 @@ const UserCard = () => {
                       </span>
                     </div>
                     <div className={`${styles.maininfo}  col-md-9  p-0 `} >
-                   
-                        <span  className={`${styles.name} `}>Heather Host's Party
-                        <p  className={styles.description} >with Consultant Taylor Inman</p>
+                    
+                        <span  className={`${styles.name} `}>Heather Host's Party 
                         
-                        <button className={`${styles.button} p-1  border-0`}>Accept Invite</button>
-                        <a className={`${styles.detail}  `}href="/">Details</a>
-                       
+                        <p  className={styles.description} >with Consultant Taylor Inman</p>
+                        <button className={`${styles.button} p-2  border-0`} >Accept Invite</button>
                         </span>
+                        
                     </div>
-
+                    <div className="col-md-1"><a className={`${styles.detail} d-flex`}href="/">Details</a></div>
+                    
                 </div>
             </div>
             
