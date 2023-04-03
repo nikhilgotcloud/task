@@ -15,7 +15,7 @@ const ImageThree = () => {
                 <Image className="arrow " src="/arrow-right-black.png" width={14} height ={14} alt="qw"></Image>
                 </span>
          </h3>
-         <div className="ms-1 d-block d-sm-none mb-lg-2 "><img src="/4-mobile.png"  className="img-fluid " alt="" width={770} /></div> 
+         <div className="ms-1 d-block d-sm-none mb-lg-2 "><Image src="/4-mobile.png"  className="img-fluid " alt="" width={770} height={100}/></div> 
            {/* desktop */}
            <h3 className="d-none d-md-block mt-3">
            

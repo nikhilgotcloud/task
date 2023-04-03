@@ -1,5 +1,6 @@
 import styles from "./NavBar.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
@@ -9,9 +10,9 @@ const NavBar = () => {
        
         <div className="container-fluid ">
         
-          <a className="navbar-brand ms-md-1 ms-lg-3" href="/">
+          <Link className="navbar-brand ms-md-1 ms-lg-3" href="https://github.com/nikhilgotcloud/task">
             <img src="5.png"  alt="Logo" width="150" height="25" />
-          </a>
+          </Link>
           
           <div className="d-md-flex-inline ">
            <b><i  className={`${styles.bell} bi bi-bell p-1   `}><Image className={`${styles.eclipse} `} src="/7.png" alt="Ecllipse" width={6} height={6} ></Image></i></b>
