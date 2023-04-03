@@ -50,18 +50,18 @@
     .margin {
         margin-left: -1rem;
     }
-    .back {
-        color: #1A5962;
-        text-decoration: none;
-        margin-bottom: 40px;
-        margin-left: 53%;
-    }
-    
-    .backone {
+    .backmob {
         color: #1A5962;
         text-decoration: none;
         margin-bottom: 40px;
         margin-left: 50%;
+    }
+    
+    .backonemob {
+        color: #1A5962;
+        text-decoration: none;
+        margin-bottom: 6rem;
+        margin-left: 46%;
         font-family: 'Foundation Sans';
         font-style: normal;
         font-weight: 400;

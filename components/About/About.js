@@ -21,11 +21,11 @@ const About = () => {
 
 
             {/* mobile  */}
-            <div className={`${styles.about} d-flex-inline p-2 ms-0 d-block d-sm-none`}>
+            <div className={`${styles.aboutone} d-flex-inline p-2 ms-0 d-block d-sm-none pb-4`}>
 
                 
-                <h3 className={`${styles.heading} text-center `}>Why Pampered Chef?</h3>
-                <p>We help bridge the gap between the ideal
+                <h3 className={`${styles.heading} text-center mt-3`}>Why Pampered Chef?</h3>
+                <p className="ms-3 me-3">We help bridge the gap between the ideal
                     mealtime and the realities of today with quality
                     products, a supportive consultant, and solutions
                     to your mealtime challenges.

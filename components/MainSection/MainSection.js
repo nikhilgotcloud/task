@@ -56,11 +56,17 @@ const MainSection = () => {
                                     <ImageThree />
                                     <ImageFour />
                                 </div>
-                                <div className="row m-3 ">
+                                <div className="row  ">
                                     <About />
 
 
                                 </div>
+                                <div className="d-block d-sm-none">
+                                <a className={`${styles.backmob}`} href="/"><i className="bi bi-arrow-up"></i></a>
+                                    <a className={`${styles.backonemob}`} href="/"> Back to top</a>
+
+                                </div>
+                                <div className="d-block d-sm-none mb-4 mt-3"></div>
                                 <div >
                                 <a className={`${styles.back}`} href="/"><i className="bi bi-arrow-up"></i></a>
                                     <a className={`${styles.backone}`} href="/"> Back to top</a>

@@ -1,7 +1,7 @@
 .about {
     background-color: white;
-    margin-left: -1rem;
-    margin-right: -1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
 }
 
@@ -36,4 +36,10 @@
     line-height: 135%;
     text-align: center;
     color: #1a5861;
+}
+
+.aboutone{
+    
+        background-color: #EFF3F4;
+ 
 }
