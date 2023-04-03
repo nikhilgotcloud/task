@@ -9,7 +9,7 @@ const PartyTool = () => {
         <div className={`${styles.icon}`}>
           <i className="bi bi-gear col-4 mt-2 ms-2 pe-3" ><b className={`${styles.chat}`}> Settings</b></i>
           <i className={`${styles.poll } bi bi-chat-square-dots  pe-3`}><b className={`${styles.chat}`}> Text Guest</b></i>
-          <Image className={`${styles.poll}`} src="/poll.png" width={18} height={18}></Image>
+          <Image className={`${styles.poll}`} src="/poll.png" width={18} height={18} alt="qw"></Image>
             <b className={`${styles.chat}`}> Polls</b>
         </div>
       </div>

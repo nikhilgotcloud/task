@@ -15,7 +15,7 @@ const UserCard = () => {
                 <div className={`${styles.info} row m-lg-1`}>
                     <div className={`${styles.info} col-md-3`} >
                       <span>
-                        <Image  className={styles.image} src="/6.jpg" alt="profile" width={60} height={60} ></Image>
+                        <Image  className={styles.image} src="/6.jpg" alt="profile" width={60} height={60}  ></Image>
                       </span>
                     </div>
                     <div className={`${styles.maininfo}  col-md-9  p-0 `} >

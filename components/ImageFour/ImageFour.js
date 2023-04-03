@@ -11,7 +11,7 @@ const ImageFour = () => {
          <span className="heading px-2 ms-1" >
                 <span  className={`${styles.numberone} me-2 text-light`} >5</span>
                 Get a Cookware Guide for Your Favourite Product
-                <Image className="arrow " src="/arrow-right-black.png" width={14} height ={14}></Image>
+                <Image className="arrow " src="/arrow-right-black.png" width={14} height ={14} alt="qw"></Image>
                 </span>
          </h3>
            {/* desktop */}
@@ -19,7 +19,7 @@ const ImageFour = () => {
                 <span className="heading px-2 ms-1" >
                 <span  className="number me-2" >5</span>
                 Get a Cookware Guide for Your Favourite Product
-                <Image className="arrow " src="/arrow-right-black.png" width={15} height={15}></Image>
+                <Image className="arrow " src="/arrow-right-black.png" width={15} height={15} alt="qw"></Image>
                 
                 </span>
             </h3>

@@ -12,7 +12,7 @@ const ImageThree = () => {
          <span className="heading px-2 ms-1" >
                 <span  className={`${styles.numberone} me-2 text-light`} >4</span>
                 Host & Get Discounts 
-                <Image className="arrow " src="/arrow-right-black.png" width={14} height ={14}></Image>
+                <Image className="arrow " src="/arrow-right-black.png" width={14} height ={14} alt="qw"></Image>
                 </span>
          </h3>
          <div className="ms-1 d-block d-sm-none mb-lg-2 "><img src="/4-mobile.png"  className="img-fluid " alt="" width={770} /></div> 
@@ -22,7 +22,7 @@ const ImageThree = () => {
                 <span className="heading px-2 ms-1" >
                 <span  className="number me-2">4</span>
                 Get a discount and Help Your Friend 
-                <Image className="arrow"src="/arrow-right-black.png" width={15} height ={15}></Image>
+                <Image className="arrow"src="/arrow-right-black.png" width={15} height ={15} alt="qw"></Image>
                 </span>
             </h3>
            <div className="ms-3 d-none d-md-block mb-lg-2 me-3"><img src="/1.png"  className="img-fluid " alt="" width={850}/></div> 

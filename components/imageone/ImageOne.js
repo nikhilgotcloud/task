@@ -12,7 +12,7 @@ const ImageOne = () => {
                 <span className="heading px-2 ">
                 <span  className={`${styles.numberone} me-2 text-light`} >2</span>
                 Watch a Live Cooking Event
-                <Image className="arrow " src="/arrow-right-black.png" width={14} height ={14}></Image>
+                <Image className="arrow " src="/arrow-right-black.png" width={14} height ={14} alt="qw"></Image>
                 </span>
             </h3>
 
@@ -22,7 +22,7 @@ const ImageOne = () => {
                 <span className="heading px-2 ms-1" >
                 <span  className="number me-2" >2</span>
                 Watch a Live Cooking Event 
-                <Image className="arrow" src="/arrow-right-black.png" width={15} height ={15}></Image>
+                <Image className="arrow" src="/arrow-right-black.png" width={15} height ={15} alt="qw"></Image>
                 </span>
             </h3>
            <div className={`${styles.imagee} ms-lg-3 mb-lg-2 me-lg-3 `}><img src="/3.png"  className="img-fluid " alt="" width={850}/></div> 

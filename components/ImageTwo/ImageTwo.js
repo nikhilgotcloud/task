@@ -11,7 +11,7 @@ const ImageTwo = () => {
                 <span className="heading px-2 ms-1" >
                 <span  className={`${styles.numberone} me-2 text-light`} >3</span>
                 Explore Products in 3D
-                <Image className="arrow " src="/arrow-right-black.png" width={14} height ={14}></Image>
+                <Image className="arrow " src="/arrow-right-black.png" width={14} height ={14} alt="qw"></Image>
                 </span>
             </h3>
 
@@ -20,7 +20,7 @@ const ImageTwo = () => {
                 <span className="heading px-2 ms-1" >
                 <span  className="number me-2" >3</span>
                 Explore Products in 3D
-                <Image className="arrow" src="/arrow-right-black.png" width={15} height ={15}></Image>
+                <Image className="arrow" src="/arrow-right-black.png" width={15} height ={15} alt="qw"></Image>
                 </span>
             </h3>
            <div className="ms-1 ms-lg-3 me-lg-3 mb-lg-2 me-1 mb-1"><img src="/2.png"  className="img-fluid " alt="" width={850}/></div> 
