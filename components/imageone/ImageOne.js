@@ -25,7 +25,7 @@ const ImageOne = () => {
                 <Image className="arrow" src="/arrow-right-black.png" width={15} height ={15} alt="qw"></Image>
                 </span>
             </h3>
-           <div className={`${styles.imagee} ms-lg-3 mb-lg-2 me-lg-3 `}><img src="/3.png"  className="img-fluid " alt="" width={850}/></div> 
+           <div className={`${styles.imagee} ms-lg-3 mb-lg-2 me-lg-3 `}><Image src="/3.png"  className="img-fluid " alt="" width={850} height={100}/></div> 
             
             {/* <Image className={`${styles.image} ms-3`} src="/3.png" alt="LiveCookingEvent" width={800} height={400}></Image> */}
             

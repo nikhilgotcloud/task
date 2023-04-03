@@ -1,5 +1,6 @@
 import styles from "./UserCardMobile.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const UserCardMobile = () => {
   return (
@@ -15,7 +16,7 @@ const UserCardMobile = () => {
                    
                         <span  className={`${styles.name} `}>Heather Host's Party 
                         
-                        <p  className={styles.description} >with Consultant Taylor Inman<a className={`${styles.detail} pb-5 `}href="/">Details</a></p>
+                        <p  className={styles.description} >with Consultant Taylor Inman<Link className={`${styles.detail} pb-5 `} href="https://github.com/nikhilgotcloud/task">Details</Link></p>
                        
                         </span>
                     </div>

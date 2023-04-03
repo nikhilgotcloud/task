@@ -1,6 +1,7 @@
 import styles from "./UserCard.module.css";
 import Image from "next/image";
 import { useState } from 'react';
+import Link from "next/link";
 
 
   
@@ -27,7 +28,7 @@ const UserCard = () => {
                         </span>
                         
                     </div>
-                    <div className="col-md-1"><a className={`${styles.detail} d-flex`}href="/">Details</a></div>
+                    <div className="col-md-1"><Link className={`${styles.detail} d-flex`}href="https://github.com/nikhilgotcloud/task">Details</Link></div>
                     
                 </div>
             </div>

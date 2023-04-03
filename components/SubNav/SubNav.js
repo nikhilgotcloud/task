@@ -1,5 +1,6 @@
 import styles from "./SubNav.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const SubNav = () => {
   return (
@@ -28,13 +29,13 @@ const SubNav = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className={`${styles.news} nav-item px-3`}>
-                  <a className="nav-link active text-light " aria-current="page" href="/">My News Feed</a>
+                  <Link className="nav-link active text-light " aria-current="page" href="https://github.com/nikhilgotcloud/task">My News Feed</Link>
                 </li>
                 <li className="nav-item px-3">
-                  <a className="nav-link active text-light" aria-current="page" href="/">Content Manager</a>
+                  <Link className="nav-link active text-light" aria-current="page" href="https://github.com/nikhilgotcloud/task">Content Manager</Link>
                 </li>
                 <li className="nav-item px-3" >
-                  <a className="nav-link active text-light" aria-current="page" href="/">Event Manager</a>
+                  <Link className="nav-link active text-light" aria-current="page" href="https://github.com/nikhilgotcloud/task">Event Manager</Link>
                 </li>
                  
                 

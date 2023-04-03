@@ -1,11 +1,12 @@
 import styles from "./PartyTool.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const PartyToolMobile = () => {
   return (
     <>
       <div className={`${styles.party}  mb-3 mt-1 p-2 justify-content-evenly`}>
-        <p className={`${styles.head} ms-2`}>Party Tools <a className={`${styles.only} `} >Only visible to you</a></p>
+        <p className={`${styles.head} ms-2`}>Party Tools <p className={`${styles.only} `}  >Only visible to you</p></p>
         <div className={`${styles.icon}`}>
           <i className="bi bi-gear col-4 mt-2 ms-1" ><b className={`${styles.chat}`}> Settings</b></i>
           <i class="bi bi-chat-square-dots mx-5"><b className={`${styles.chat}`}> Text Guest</b></i>

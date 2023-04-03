@@ -23,7 +23,7 @@ const ImageTwo = () => {
                 <Image className="arrow" src="/arrow-right-black.png" width={15} height ={15} alt="qw"></Image>
                 </span>
             </h3>
-           <div className="ms-1 ms-lg-3 me-lg-3 mb-lg-2 me-1 mb-1"><img src="/2.png"  className="img-fluid " alt="" width={850}/></div> 
+           <div className="ms-1 ms-lg-3 me-lg-3 mb-lg-2 me-1 mb-1"><Image src="/2.png"  className="img-fluid " alt="" width={850} height={100}/></div> 
             
             {/* <Image className={`${styles.image} ms-3`} src="/3.png" alt="LiveCookingEvent" width={800} height={400}></Image> */}
             
