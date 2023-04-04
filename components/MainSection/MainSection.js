@@ -27,7 +27,7 @@ const MainSection = () => {
 
                         <div className={`${styles.margin} row `}>
                             {/* left portion */}
-                            <div class="col-lg-8 mt-3  ">
+                            <div className="col-lg-8 mt-3  ">
                                 <div className="d-none d-md-block"><UserCard /></div>
 
                                 <div className="d-block d-sm-none"><UserCardMobile /></div>
