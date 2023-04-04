@@ -19,9 +19,9 @@ const SubNav = () => {
         <div >
 
           <button className={`${styles.menu} navbar-toggler text-light border-0 `}type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-            Menu <i class={`${styles.down} bi bi-caret-down-fill`}></i>
+            Menu <i className={`${styles.down} bi bi-caret-down-fill`}></i>
           </button>
-          <div className="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div className="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div className="offcanvas-header">
               <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu Items</h5>
               <button type="button" className="btn-close btn-close-white text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
