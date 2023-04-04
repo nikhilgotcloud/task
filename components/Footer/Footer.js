@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import styles from "./Footer.module.css";
 import Image from "next/image";
 
-const Footer = ({ data }) => {
+const Footer = () => {
   useEffect(() => {
     ReactDOM.hydrate(
       <div className="fixed-bottom d-block d-sm-none">
