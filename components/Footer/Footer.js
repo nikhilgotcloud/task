@@ -6,7 +6,7 @@ import Image from "next/image";
 const Footer = () => {
   useEffect(() => {
     ReactDOM.hydrate(
-      <div className="fixed-bottom d-block d-sm-none">
+      <div className="fixed-bottom ">
         <div className="container">
           <div className="row">
             <div className={`${styles.footer} col p-2`}>

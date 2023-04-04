@@ -88,7 +88,9 @@ const MainSection = () => {
                         </div>
                     </div>
                 </div>
-                <Footer />
+
+                <div className="d-block d-sm-none"><Footer /></div>
+                
             </div>
 
         </>
